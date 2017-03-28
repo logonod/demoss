@@ -1,0 +1,5 @@
+CREATE TABLE samples (
+	id bigserial PRIMARY KEY,
+	link text NOT NULL,
+	path text NOT NULL
+);
